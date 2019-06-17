@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/docplanner-react/precache-manifest.ad292b396a5ec4d176e6009b7766e713.js"
+  "/docplanner-react/precache-manifest.f5a1ddcffeeaf5702aad7560f5095d7d.js"
 );
 
 self.addEventListener('message', (event) => {
