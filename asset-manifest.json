@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/docplanner-react/static/css/main.733511e9.chunk.css",
+    "main.js": "/docplanner-react/static/js/main.e6c024cd.chunk.js",
+    "main.js.map": "/docplanner-react/static/js/main.e6c024cd.chunk.js.map",
+    "runtime~main.js": "/docplanner-react/static/js/runtime~main.5671041c.js",
+    "runtime~main.js.map": "/docplanner-react/static/js/runtime~main.5671041c.js.map",
+    "static/css/2.266e55a5.chunk.css": "/docplanner-react/static/css/2.266e55a5.chunk.css",
+    "static/js/2.5d595c84.chunk.js": "/docplanner-react/static/js/2.5d595c84.chunk.js",
+    "static/js/2.5d595c84.chunk.js.map": "/docplanner-react/static/js/2.5d595c84.chunk.js.map",
+    "index.html": "/docplanner-react/index.html",
+    "precache-manifest.ad292b396a5ec4d176e6009b7766e713.js": "/docplanner-react/precache-manifest.ad292b396a5ec4d176e6009b7766e713.js",
+    "service-worker.js": "/docplanner-react/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/docplanner-react/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.733511e9.chunk.css.map": "/docplanner-react/static/css/main.733511e9.chunk.css.map",
+    "static/media/barcelona.png": "/docplanner-react/static/media/barcelona.152f007c.png",
+    "static/media/curitiba.png": "/docplanner-react/static/media/curitiba.a9ff15a2.png",
+    "static/media/doctoralia.PNG": "/docplanner-react/static/media/doctoralia.616a0f86.PNG",
+    "static/media/doktortakvimi.PNG": "/docplanner-react/static/media/doktortakvimi.6ef66260.PNG",
+    "static/media/istanbul.png": "/docplanner-react/static/media/istanbul.40d37725.png",
+    "static/media/landing-logo.PNG": "/docplanner-react/static/media/landing-logo.f1d98776.PNG",
+    "static/media/mexico-city.png": "/docplanner-react/static/media/mexico-city.47ca4c93.png",
+    "static/media/miodottore.PNG": "/docplanner-react/static/media/miodottore.c3009d04.PNG",
+    "static/media/rome.png": "/docplanner-react/static/media/rome.4617f89b.png",
+    "static/media/screen-marketplace@2x.png": "/docplanner-react/static/media/screen-marketplace@2x.82d323de.png",
+    "static/media/screen-saas.png": "/docplanner-react/static/media/screen-saas.120076c7.png",
+    "static/media/warsaw.png": "/docplanner-react/static/media/warsaw.9d829d85.png",
+    "static/media/znanylekar.PNG": "/docplanner-react/static/media/znanylekar.95c63f3e.PNG",
+    "static/media/znanylekarz.PNG": "/docplanner-react/static/media/znanylekarz.8ef8058b.PNG"
+  }
+}
