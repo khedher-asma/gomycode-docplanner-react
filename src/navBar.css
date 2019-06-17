@@ -96,6 +96,7 @@
     display: none;
     background-color: #00b39b;
     font-weight: 400;
+    width: 100vw;
     min-height: 100vh;
   
   }
