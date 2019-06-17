@@ -96,7 +96,7 @@
     display: none;
     background-color: #00b39b;
     font-weight: 400;
-    height: 100vh;
+    min-height: 100vh;
   
   }
   .landing-nav *{
