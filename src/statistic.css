@@ -1,0 +1,128 @@
+.section-five{
+    background-color:#daf7f6;
+    background-image: url("https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/jcmy9zzlqh682l0my9p3");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 28%;
+    font-size: 12px;
+    height: 600px;
+}
+.inner-section-five{
+    margin-top:3rem ;
+}
+.first-div{
+    padding-top: 5rem;
+    padding-left: 4.5rem;
+    width: 50%;
+}
+.content-first-div{
+    width: 22rem;
+
+}
+.first-div h4,.countries h4,.appointments h4,.patients h4,.doctors h4{
+    color: #00b39b;
+}
+.first-div p,.countries p,.appointments p,.patients p,.doctors p{
+    color: #747474;
+}
+.second-div{
+    width: 50%;
+}
+.cards{
+    margin-left:6em;
+}
+
+.countries,.appointments,.patients,.doctors{
+    background-color: white;
+    width: 30em;
+    height: 20em;
+    border-radius: 4px;
+}
+.countries *,.appointments *,.patients *,.doctors *{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.countries img,.appointments img,.patients img,.doctors img{
+    width: 3rem;
+    height: 3rem;
+    margin-top:2rem; 
+}
+.countries, .patients{
+    margin-top: 3rem;
+    margin-left: 0.2rem;
+
+}
+.appointments,.doctors{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+}
+@media Screen and (min-width : 850px) and (max-width : 991px){
+    .countries h4,.appointments h4,.patients h4,.doctors h4{
+        font-size: 14px;
+    }
+    .countries p,.appointments p,.patients p,.doctors p{
+        font-size: 11px;
+    }
+}
+@media Screen and (max-width : 850px){
+    .section-five{
+        height: 800px;
+    }
+    .inner-section-five{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .first-div{
+        width: 22rem;
+        padding-left: 0;
+        text-align: center;
+
+    }
+    .second-div{
+        width: 100%;
+    } 
+}
+@media Screen and (max-width : 500px){
+    .section-five{
+        height: 1000px;
+    }
+    .second-div{
+        width: 100% !important;
+    } 
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+    .countries,.appointments,.patients,.doctors{
+        min-width:100% !important;
+        height: 50rem;
+        padding: 0;
+    }
+    .countries{
+        margin-top: 3rem;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .appointments{
+        margin: 0;
+    }
+    .patients{
+        margin-top:3rem;   
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    .doctors{
+        margin:0;
+        padding: 0;
+    }
+
+}

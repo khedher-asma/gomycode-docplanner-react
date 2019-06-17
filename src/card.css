@@ -1,0 +1,36 @@
+.block-patient{
+    background-color:#00ccb1;
+    overflow: hidden;
+}
+.text-patient{
+   color:#b3eeda;
+}
+.title-patient,#title-doctor{
+   color:white;
+}
+.country-btn{
+    background-color: white;
+    color:#333333;
+    padding: 4%;
+   
+}
+.patient-img{
+    width:100%;
+    height:auto;
+    margin-left: 30%;
+}
+.block-doctor{
+    background-color:#3d83df;
+    overflow:hidden;
+}
+.text-doctor{
+    color:#90ccf5;
+}
+.doctor-img{
+    width:100%;
+    height:auto;
+    margin-left: 30%;
+}
+.section-three{
+    margin-top: 1rem;
+}

@@ -1,0 +1,34 @@
+.main-image-container{
+   margin-top: 5rem;
+}
+.scroll-list{
+padding: 2rem 0;
+}
+.size-card{
+    min-width: 20rem;
+    min-height: 15rem;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+}
+.scroll-countries-list{
+    display: none;
+}
+
+.country-name:hover{
+    text-decoration: none;
+}
+.country-name,.country-name:hover{
+    color: #747474;
+
+}
+
+@media Screen and (max-width : 870px){
+    .grid-countries-list{
+        display: none;
+    }
+    .scroll-countries-list{
+        display:flex;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+}

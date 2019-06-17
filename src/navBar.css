@@ -1,0 +1,182 @@
+.initial-nav{
+    background-color: rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.1); */
+}
+.main-nav{
+    width: 100vw;
+    background-color:  rgba(255,255,255,.9);
+    padding: 0 2rem;
+  }
+  .logo-docplanner{
+    width: 14.5rem;
+    height: 3.7rem;
+  }
+  .hamburger{
+    display: none;
+  }
+  .line {
+    width: 25px;
+    height: 3px;
+    background: #00b39b;
+    margin: 5px;
+  }
+  .nav-main-nav{
+    font-weight: 400;
+  }
+  .main-menu{
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .main-menu li{
+    width: 4.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .about-us{
+    color: #00b39b;
+  }
+  .about-us:hover{
+    text-decoration: none;
+    color: #00b39b;
+  }
+  .career{
+    color: #aeaeae;
+  }
+  .career:hover{
+    text-decoration: none;
+    color: #00b39b;
+  }
+  .dropdown{
+    color: #aeaeae;
+    position: relative;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    width: 220px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content ul{
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  
+  }
+  .dropdown-content li{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .dropdown-content a {
+    color: #aeaeae;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-align: left;  
+  }
+  .dropdown-content a:hover {
+    text-decoration: none;
+    color: #00b39b;
+    background-color: rgba(0,0,0,0.1);
+  }
+  .landing-nav{
+    display: none;
+    background-color: #00b39b;
+    font-weight: 400;
+    height: 100vh;
+  
+  }
+  .landing-nav *{
+    color: white;
+    text-align: center;
+  }
+  .landing-nav a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .landing-main-nav a{
+    text-align: center;
+    padding: 0.7rem 0;
+  }
+  .disable{
+    pointer-events: none;
+    cursor: default;
+    color: rgba(255,255,255,0.8)
+  }
+  .close{
+    padding-top:0.3rem; 
+  }
+  @media screen and (max-width: 561px){
+    
+    .main-nav{
+      display: flex;
+      flex-direction: column;
+      padding: 0 2rem;
+  
+    }
+    .main-menu {
+      justify-content: flex-end;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .main-nav{
+      display: flex;
+     position: relative;
+     padding: 0 2rem;
+  
+    }
+    .logo-docplanner{
+      width: 12rem;
+      height: 3.7rem;
+    }
+   .nav-main-nav{
+     display: none;
+   }
+   
+  .hamburger {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  }
+  
+  @media screen and (max-width: 300px){
+    .main-nav{
+     display: flex;
+     position: relative;
+     padding: 0 2rem;
+  
+    }
+    .line {
+      width: 20px;
+      height: 2px;
+      background: #00b39b;
+      margin: 3px;
+    }
+    .logo-docplanner{
+      width: 9rem;
+      height: 3rem;
+    }
+    .close{
+        padding-top:0.01rem; 
+      }
+  }
+  

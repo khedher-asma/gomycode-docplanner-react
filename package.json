@@ -2,7 +2,7 @@
   "name": "reactdocplanner",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/khedher-asma/react-docplanner",
+  "homepage": "https://khedher-asma.github.io/react-docplanner/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",

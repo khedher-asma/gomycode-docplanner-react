@@ -1,0 +1,15 @@
+.descript-footer{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 12px;
+}
+.descript-footer p{
+    color: #b3abcd;
+}
+.descript-footer a{
+    color: #3d83df;
+}
+.descript-footer a:hover{
+    text-decoration: none;
+    color: #3d83df;
+}
