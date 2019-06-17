@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 28%;
-    font-size: 12px;
     height: 600px;
 }
 .inner-section-five{
@@ -14,12 +13,10 @@
     padding-top: 5rem;
     padding-left: 4.5rem;
     width: 50%;
+    font-size: 14px;
 }
-.content-first-div{
-    width: 22rem;
 
-}
-.first-div h4,.countries h4,.appointments h4,.patients h4,.doctors h4{
+.first-div h3,.countries h4,.appointments h4,.patients h4,.doctors h4{
     color: #00b39b;
 }
 .first-div p,.countries p,.appointments p,.patients p,.doctors p{
@@ -27,6 +24,8 @@
 }
 .second-div{
     width: 50%;
+    font-size: 12px;
+
 }
 .cards{
     margin-left:6em;
@@ -125,4 +124,15 @@
         padding: 0;
     }
 
+}
+@media Screen and (max-width : 351px){
+    .first-div{
+        width: 13rem;
+    }
+    .content-first-div {
+        word-wrap: break-word;  
+    }
+    .section-five{
+        height: 1250px;
+    }
 }

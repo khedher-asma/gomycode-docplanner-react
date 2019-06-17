@@ -35,9 +35,9 @@ const Statistic = () => {
     return(
         <div className="section-five">
             <div className="container d-flex inner-section-five">
-                <div className="first-div">
-                    <div className="content-first-div">
-                        <h3>The world's<br/> biggest healthcare platform</h3>
+                <div className="first-div d-flex">
+                    <div className="content-first-div d-flex flex-column">
+                        <h3 >The world's<br/> biggest healthcare platform</h3>
                         <p>We work from 6 offices all over the world, bringing Docplanner Group to life in almost 20 countries.</p>
                   
                     </div>

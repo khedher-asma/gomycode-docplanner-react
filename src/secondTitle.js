@@ -3,8 +3,8 @@ import './secondTitle.css'
 
 const SecondTitle = () => {
     return (
-        <div className="snd-title">
-            <div className="container second-title">
+        <div className="container snd-title">
+            <div className="d-flex flex-column second-title">
                 <h3>
                     Improve the lives of millions.<br/> Change yours forever
                 </h3>
